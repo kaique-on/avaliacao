@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    width: fit-content;
+}
+
+input {
+    padding: 2px;
+    width: 300px;
+}
+
+select, option {
+    background-color: #0057b320;
+    padding: 4px;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    align-items: center;
+    background-color: #0056b3;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 32px;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.principal {
+    margin: 16px 0;
+}
+
+.tarefa {
+    background-color: #0057b32e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+    width: 500px;
+}
+
+.tarefa span {
+    font-weight: 500;
+}
+
+.espaco-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 0;
+    width: fit-content;
+}
+
+.botao-azul {
+    background-color: #0056b3;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 8px;
+    width: fit-content;
+}

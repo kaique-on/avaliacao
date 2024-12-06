@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Tarefas</h1>
+        <div class="links">
+            <a href="./index.html">Cadastro de Usuários</a>
+            <a href="./CadastroTarefas.html">Cadastro de Tarefas</a>
+            <a href="./gerenciamentoTarefas.html">Gerenciar Tarefas</a>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <h2 class="principal">Cadastro de Tarefas</h2>
+        <div class="espaco-input">
+            <p>Descrição:</p>
+            <input type="text">
+        </div>
+        <div class="espaco-input">
+            <p>Setor:</p>
+            <input type="text">
+        </div>
+        <div class="espaco-input">
+            <p>Usuário:</p>
+            <select name="usuario" id="user">
+                <option value="a">a</option>
+            </select>
+        </div>
+        <div class="espaco-input">
+            <p>Prioridade:</p>
+            <select name="prioridade" id="priority">
+                <option value="0">Baixa</option>
+                <option value="1">Média</option>
+                <option value="2">Alta</option>
+            </select>
+        </div>
+        <input type="submit" placeholder="Cadastrar" class="botao-azul" >
+        </form>
+    </main>
+</body>
+</html>
